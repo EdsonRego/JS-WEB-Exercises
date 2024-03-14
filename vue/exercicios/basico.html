@@ -1,15 +1,44 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <title>Conceitos Básicos</title>
     <link rel="stylesheet" href="/css/estilo.css">
     <script src="/js/vue.min.js"></script>
 </head>
-<body class="exercicio">
 
+<body class="exercicio">
+    <!--Template-->
+    <div id="app">
+        <p>1) {{2+2}}</p>
+        <p>2) {{"teste" .toUpperCase()}}</p>
+        <p>3) Produto: {{nome}}, preço {{preco}}, {{desconto * 100}}%</p>
+        <p>4) Hora certa: {{horacerta()}}</p>
+        <p>5) Preço com descont R$ {{precoComDesconto}}</p>
+    </div>
     <script>
-        // ...
+        //view instance
+        new Vue({
+            el: "#app",
+            data: {
+                nome: 'caneta',
+                preco: 6.89,
+                desconto: 0.15
+            },
+            methods: {
+                horacerta() {
+                    return new Date().toLocaleString();
+                }
+            },
+            computed: {
+                precoComDesconto() {
+                    return this.preco
+                }
+
+            }
+        })
     </script>
 </body>
+
 </html>
