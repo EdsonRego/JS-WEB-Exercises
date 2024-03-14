@@ -1,15 +1,36 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <title>Componente</title>
     <link rel="stylesheet" href="/css/estilo.css">
     <script src="/js/vue.min.js"></script>
 </head>
+
 <body class="exercicio">
+    <!--Template-->
+    <div id="app">
+        <!--Componente saudacao-->
+        <saudacao nome="Ana"></saudacao>
+        <saudacao nome="Edson"></saudacao>
+        <saudacao nome="Eva"></saudacao>
+    </div>
 
     <script>
-        // ...
+        // Component
+        Vue.component('saudacao', {
+            props: ['nome'],
+            template: `
+            <div>Bom dia {{nome}}!</div>
+            `
+        })
+        //Vue Instance
+        new Vue({
+            el: "#app"
+        })
+
     </script>
 </body>
+
 </html>
