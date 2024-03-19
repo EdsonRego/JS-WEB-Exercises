@@ -32,10 +32,13 @@ module.exports = {
             test: /\.s?[ac]ss$/,
             use: [
                 MiniCssExtractPlugin.loader,
-                // 'style-loader',
-                'css-loader',
-                'sass-loader'
+                // 'style-loader', // Adiciona CSS a DOM injetando a tag <style>
+                'css-loader', // interpreta @import, url()...
+                'sass-loader',
             ]
+        }, {
+            test: /\.(png|svg|jpg|gif)$/,
+            use: ['file-loader']
         }]
     }
 }

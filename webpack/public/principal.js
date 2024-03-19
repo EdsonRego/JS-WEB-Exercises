@@ -9,13 +9,13 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./src/assets/css/estilo.css?376f":
+/***/ "./src/assets/css/estilo.css":
 /*!***********************************!*\
   !*** ./src/assets/css/estilo.css ***!
   \***********************************/
 /***/ (() => {
 
-eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack://capitulo-webpack/./src/assets/css/estilo.css?");
+eval("throw new Error(\"Module build failed (from ./node_modules/mini-css-extract-plugin/dist/loader.js):\\nError: Automatic publicPath is not supported in this browser\\n    at C:\\\\ws-web-modern\\\\JS-WEB-Exercises\\\\webpack\\\\node_modules\\\\css-loader\\\\index.js!C:\\\\ws-web-modern\\\\JS-WEB-Exercises\\\\webpack\\\\node_modules\\\\sass-loader\\\\lib\\\\loader.js!C:\\\\ws-web-modern\\\\JS-WEB-Exercises\\\\webpack\\\\src\\\\assets\\\\css\\\\estilo.css:109:34\\n    at C:\\\\ws-web-modern\\\\JS-WEB-Exercises\\\\webpack\\\\node_modules\\\\css-loader\\\\index.js!C:\\\\ws-web-modern\\\\JS-WEB-Exercises\\\\webpack\\\\node_modules\\\\sass-loader\\\\lib\\\\loader.js!C:\\\\ws-web-modern\\\\JS-WEB-Exercises\\\\webpack\\\\src\\\\assets\\\\css\\\\estilo.css:112:13\\n    at Object.<anonymous> (C:\\\\ws-web-modern\\\\JS-WEB-Exercises\\\\webpack\\\\node_modules\\\\css-loader\\\\index.js!C:\\\\ws-web-modern\\\\JS-WEB-Exercises\\\\webpack\\\\node_modules\\\\sass-loader\\\\lib\\\\loader.js!C:\\\\ws-web-modern\\\\JS-WEB-Exercises\\\\webpack\\\\src\\\\assets\\\\css\\\\estilo.css:122:12)\\n    at Module._compile (node:internal/modules/cjs/loader:1254:14)\\n    at exec (C:\\\\ws-web-modern\\\\JS-WEB-Exercises\\\\webpack\\\\node_modules\\\\mini-css-extract-plugin\\\\dist\\\\loader.js:54:10)\\n    at C:\\\\ws-web-modern\\\\JS-WEB-Exercises\\\\webpack\\\\node_modules\\\\mini-css-extract-plugin\\\\dist\\\\loader.js:132:14\\n    at finalCallback (C:\\\\ws-web-modern\\\\JS-WEB-Exercises\\\\webpack\\\\node_modules\\\\webpack\\\\lib\\\\Compiler.js:564:5)\\n    at C:\\\\ws-web-modern\\\\JS-WEB-Exercises\\\\webpack\\\\node_modules\\\\webpack\\\\lib\\\\Compiler.js:590:11\\n    at C:\\\\ws-web-modern\\\\JS-WEB-Exercises\\\\webpack\\\\node_modules\\\\webpack\\\\lib\\\\Compiler.js:1213:17\\n    at Hook.eval [as callAsync] (eval at create (C:\\\\ws-web-modern\\\\JS-WEB-Exercises\\\\webpack\\\\node_modules\\\\tapable\\\\lib\\\\HookCodeFactory.js:33:10), <anonymous>:15:1)\");\n\n//# sourceURL=webpack://capitulo-webpack/./src/assets/css/estilo.css?");
 
 /***/ }),
 
@@ -36,7 +36,7 @@ eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack://capitul
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _css_estilo_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./css/estilo.css */ \"./src/assets/css/estilo.css?376f\");\n/* harmony import */ var _css_estilo_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_css_estilo_css__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _scss_index_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./scss/index.scss */ \"./src/assets/scss/index.scss?ead8\");\n/* harmony import */ var _scss_index_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_scss_index_scss__WEBPACK_IMPORTED_MODULE_1__);\n\r\n\n\n//# sourceURL=webpack://capitulo-webpack/./src/assets/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _css_estilo_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./css/estilo.css */ \"./src/assets/css/estilo.css\");\n/* harmony import */ var _css_estilo_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_css_estilo_css__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _scss_index_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./scss/index.scss */ \"./src/assets/scss/index.scss?ead8\");\n/* harmony import */ var _scss_index_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_scss_index_scss__WEBPACK_IMPORTED_MODULE_1__);\n\r\n\n\n//# sourceURL=webpack://capitulo-webpack/./src/assets/index.js?");
 
 /***/ }),
 
